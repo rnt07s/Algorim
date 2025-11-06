@@ -1,7 +1,7 @@
 // src/integrations/gemini/client.ts
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMENI_AI_API);
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_AI_API);
 
 export const evaluateCode = async (question: string, code: string) => {
   try {
